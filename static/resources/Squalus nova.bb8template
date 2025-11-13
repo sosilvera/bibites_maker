@@ -1,0 +1,720 @@
+{
+  "name": "Squalus nova",
+  "speciesName": "Squalus nova",
+  "description": "These \"Sharks\" are descended from the scavenger Vultures, sharing a similarly sparse and large environment, they eventually evolved to kill instead of just relying on naturally occurring corpses to feed.\n\nThanks to Storme and RadNugget for the incredible efforts they dedicated to finding out the dynamics that would allow predators to naturally evolve <3 ",
+  "version": "0.6",
+  "isOfficial": true,
+  "nodes": [
+    {
+      "Type": 0,
+      "Index": 0,
+      "Inov": 1,
+      "Desc": "EnergyRatio",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 1,
+      "Inov": 2,
+      "Desc": "Maturity",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 2,
+      "Inov": 3,
+      "Desc": "LifeRatio",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 3,
+      "Inov": 4,
+      "Desc": "Fullness",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 4,
+      "Inov": 5,
+      "Desc": "Speed",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 5,
+      "Inov": 6,
+      "Desc": "IsGrabbing",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 6,
+      "Inov": 7,
+      "Desc": "AttackedDamage",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 7,
+      "Inov": 8,
+      "Desc": "EggStored",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 8,
+      "Inov": 9,
+      "Desc": "BibiteCloseness",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 9,
+      "Inov": 10,
+      "Desc": "BibiteAngle",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 10,
+      "Inov": 11,
+      "Desc": "NBibites",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 11,
+      "Inov": 12,
+      "Desc": "PlantCloseness",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 12,
+      "Inov": 13,
+      "Desc": "PlantAngle",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 13,
+      "Inov": 14,
+      "Desc": "NPlants",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 14,
+      "Inov": 15,
+      "Desc": "MeatCloseness",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 15,
+      "Inov": 16,
+      "Desc": "MeatAngle",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 16,
+      "Inov": 17,
+      "Desc": "NMeats",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 17,
+      "Inov": 18,
+      "Desc": "RedBibite",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 18,
+      "Inov": 19,
+      "Desc": "GreenBibite",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 19,
+      "Inov": 20,
+      "Desc": "BlueBibite",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 20,
+      "Inov": 21,
+      "Desc": "Tic",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 21,
+      "Inov": 22,
+      "Desc": "Minute",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 22,
+      "Inov": 23,
+      "Desc": "TimeAlive",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 23,
+      "Inov": 24,
+      "Desc": "PheroSense1",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 24,
+      "Inov": 25,
+      "Desc": "PheroSense2",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 25,
+      "Inov": 26,
+      "Desc": "PheroSense3",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 26,
+      "Inov": 27,
+      "Desc": "Phero1Angle",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 27,
+      "Inov": 28,
+      "Desc": "Phero2Angle",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 28,
+      "Inov": 29,
+      "Desc": "Phero3Angle",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 29,
+      "Inov": 30,
+      "Desc": "Phero1Heading",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 30,
+      "Inov": 31,
+      "Desc": "Phero2Heading",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 0,
+      "Index": 31,
+      "Inov": 32,
+      "Desc": "Phero3Heading",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 3,
+      "Index": 32,
+      "Inov": 33,
+      "Desc": "Accelerate",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 3,
+      "Index": 33,
+      "Inov": 34,
+      "Desc": "Rotate",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 3,
+      "Index": 34,
+      "Inov": 35,
+      "Desc": "Herding",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 3,
+      "Index": 35,
+      "Inov": 36,
+      "Desc": "EggProduction",
+      "baseActivation": 0.2
+    },
+    {
+      "Type": 1,
+      "Index": 36,
+      "Inov": 37,
+      "Desc": "Want2Lay",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 3,
+      "Index": 37,
+      "Inov": 38,
+      "Desc": "Want2Eat",
+      "baseActivation": 1.228
+    },
+    {
+      "Type": 1,
+      "Index": 38,
+      "Inov": 39,
+      "Desc": "Digestion",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 3,
+      "Index": 39,
+      "Inov": 40,
+      "Desc": "Grab",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 1,
+      "Index": 40,
+      "Inov": 41,
+      "Desc": "ClkReset",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 5,
+      "Index": 41,
+      "Inov": 42,
+      "Desc": "PhereOut1",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 5,
+      "Index": 42,
+      "Inov": 43,
+      "Desc": "PhereOut2",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 5,
+      "Index": 43,
+      "Inov": 44,
+      "Desc": "PhereOut3",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 1,
+      "Index": 44,
+      "Inov": 45,
+      "Desc": "Want2Grow",
+      "baseActivation": -5.23360348
+    },
+    {
+      "Type": 1,
+      "Index": 45,
+      "Inov": 46,
+      "Desc": "Want2Heal",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 1,
+      "Index": 46,
+      "Inov": 47,
+      "Desc": "Want2Attack",
+      "baseActivation": 5.0
+    },
+    {
+      "Type": 6,
+      "Index": 47,
+      "Inov": 129,
+      "Desc": "Hidden6",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 2,
+      "Index": 48,
+      "Inov": 130,
+      "Desc": "Hidden4",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 7,
+      "Index": 49,
+      "Inov": 131,
+      "Desc": "Hidden5",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 10,
+      "Index": 50,
+      "Inov": 132,
+      "Desc": "Hidden3",
+      "baseActivation": 1.0
+    },
+    {
+      "Type": 9,
+      "Index": 51,
+      "Inov": 133,
+      "Desc": "Hidden4",
+      "baseActivation": 0.0
+    },
+    {
+      "Type": 2,
+      "Index": 52,
+      "Inov": 134,
+      "Desc": "Hidden5",
+      "baseActivation": 0.0
+    }
+  ],
+  "synapses": [
+    {
+      "Inov": 452,
+      "NodeIn": 0,
+      "NodeOut": 44,
+      "Weight": 6.037913,
+      "En": true
+    },
+    {
+      "Inov": 453,
+      "NodeIn": 0,
+      "NodeOut": 38,
+      "Weight": -0.369363517,
+      "En": true
+    },
+    {
+      "Inov": 454,
+      "NodeIn": 2,
+      "NodeOut": 44,
+      "Weight": -5.23360348,
+      "En": false
+    },
+    {
+      "Inov": 455,
+      "NodeIn": 47,
+      "NodeOut": 32,
+      "Weight": 3.17368484,
+      "En": true
+    },
+    {
+      "Inov": 456,
+      "NodeIn": 9,
+      "NodeOut": 33,
+      "Weight": 11.3178587,
+      "En": true
+    },
+    {
+      "Inov": 457,
+      "NodeIn": 15,
+      "NodeOut": 33,
+      "Weight": 3.80364323,
+      "En": true
+    },
+    {
+      "Inov": 458,
+      "NodeIn": 24,
+      "NodeOut": 33,
+      "Weight": 3.197888,
+      "En": false
+    },
+    {
+      "Inov": 459,
+      "NodeIn": 15,
+      "NodeOut": 43,
+      "Weight": -1.5176053,
+      "En": false
+    },
+    {
+      "Inov": 460,
+      "NodeIn": 18,
+      "NodeOut": 41,
+      "Weight": 0.6473999,
+      "En": true
+    },
+    {
+      "Inov": 461,
+      "NodeIn": 4,
+      "NodeOut": 36,
+      "Weight": 0.434357762,
+      "En": false
+    },
+    {
+      "Inov": 462,
+      "NodeIn": 17,
+      "NodeOut": 32,
+      "Weight": -0.867290854,
+      "En": true
+    },
+    {
+      "Inov": 463,
+      "NodeIn": 22,
+      "NodeOut": 42,
+      "Weight": -1.198253,
+      "En": true
+    },
+    {
+      "Inov": 464,
+      "NodeIn": 6,
+      "NodeOut": 47,
+      "Weight": -1.30659187,
+      "En": false
+    },
+    {
+      "Inov": 465,
+      "NodeIn": 22,
+      "NodeOut": 40,
+      "Weight": 1.28354919,
+      "En": true
+    },
+    {
+      "Inov": 466,
+      "NodeIn": 18,
+      "NodeOut": 37,
+      "Weight": 1.26990032,
+      "En": true
+    },
+    {
+      "Inov": 467,
+      "NodeIn": 2,
+      "NodeOut": 37,
+      "Weight": 1.43277085,
+      "En": true
+    },
+    {
+      "Inov": 468,
+      "NodeIn": 3,
+      "NodeOut": 37,
+      "Weight": 1.62645519,
+      "En": false
+    },
+    {
+      "Inov": 469,
+      "NodeIn": 0,
+      "NodeOut": 39,
+      "Weight": 1.946507,
+      "En": false
+    },
+    {
+      "Inov": 470,
+      "NodeIn": 10,
+      "NodeOut": 42,
+      "Weight": 0.4903119,
+      "En": false
+    },
+    {
+      "Inov": 471,
+      "NodeIn": 23,
+      "NodeOut": 41,
+      "Weight": 1.72730482,
+      "En": true
+    },
+    {
+      "Inov": 472,
+      "NodeIn": 47,
+      "NodeOut": 47,
+      "Weight": 0.08169225,
+      "En": true
+    },
+    {
+      "Inov": 473,
+      "NodeIn": 9,
+      "NodeOut": 32,
+      "Weight": 1.15583444,
+      "En": false
+    },
+    {
+      "Inov": 474,
+      "NodeIn": 15,
+      "NodeOut": 44,
+      "Weight": 1.05886912,
+      "En": true
+    },
+    {
+      "Inov": 475,
+      "NodeIn": 31,
+      "NodeOut": 36,
+      "Weight": -0.7922925,
+      "En": false
+    },
+    {
+      "Inov": 476,
+      "NodeIn": 1,
+      "NodeOut": 42,
+      "Weight": 0.02130477,
+      "En": false
+    },
+    {
+      "Inov": 477,
+      "NodeIn": 29,
+      "NodeOut": 33,
+      "Weight": 1.16292608,
+      "En": false
+    },
+    {
+      "Inov": 478,
+      "NodeIn": 13,
+      "NodeOut": 45,
+      "Weight": -0.993483841,
+      "En": true
+    },
+    {
+      "Inov": 479,
+      "NodeIn": 2,
+      "NodeOut": 42,
+      "Weight": -1.83003628,
+      "En": true
+    },
+    {
+      "Inov": 480,
+      "NodeIn": 11,
+      "NodeOut": 32,
+      "Weight": 1.71828961,
+      "En": false
+    },
+    {
+      "Inov": 481,
+      "NodeIn": 2,
+      "NodeOut": 36,
+      "Weight": 1.581201,
+      "En": true
+    },
+    {
+      "Inov": 482,
+      "NodeIn": 29,
+      "NodeOut": 48,
+      "Weight": 1.0,
+      "En": false
+    },
+    {
+      "Inov": 483,
+      "NodeIn": 48,
+      "NodeOut": 33,
+      "Weight": -1.030201,
+      "En": true
+    },
+    {
+      "Inov": 484,
+      "NodeIn": 49,
+      "NodeOut": 48,
+      "Weight": 1.0,
+      "En": true
+    },
+    {
+      "Inov": 485,
+      "NodeIn": 27,
+      "NodeOut": 44,
+      "Weight": 0.72755903,
+      "En": true
+    },
+    {
+      "Inov": 486,
+      "NodeIn": 0,
+      "NodeOut": 50,
+      "Weight": 1.00179374,
+      "En": false
+    },
+    {
+      "Inov": 487,
+      "NodeIn": 50,
+      "NodeOut": 39,
+      "Weight": 1.0,
+      "En": true
+    },
+    {
+      "Inov": 488,
+      "NodeIn": 13,
+      "NodeOut": 49,
+      "Weight": 1.7329092,
+      "En": false
+    },
+    {
+      "Inov": 489,
+      "NodeIn": 9,
+      "NodeOut": 43,
+      "Weight": 1.71038675,
+      "En": true
+    },
+    {
+      "Inov": 490,
+      "NodeIn": 13,
+      "NodeOut": 51,
+      "Weight": 1.0,
+      "En": true
+    },
+    {
+      "Inov": 491,
+      "NodeIn": 51,
+      "NodeOut": 49,
+      "Weight": 1.16529238,
+      "En": true
+    },
+    {
+      "Inov": 492,
+      "NodeIn": 0,
+      "NodeOut": 52,
+      "Weight": 1.0,
+      "En": true
+    },
+    {
+      "Inov": 493,
+      "NodeIn": 52,
+      "NodeOut": 50,
+      "Weight": 1.0,
+      "En": true
+    },
+    {
+      "Inov": 494,
+      "NodeIn": 20,
+      "NodeOut": 46,
+      "Weight": -15.0,
+      "En": true
+    }
+  ],
+  "genes": {
+    "LayTime": 50.0,
+    "BroodTime": 13.2850714,
+    "HatchTime": 6.98126554,
+    "SizeRatio": 1.05916715,
+    "SpeedRatio": 1.0642254,
+    "ColorR": 0.28114894,
+    "ColorG": 0.673580348,
+    "ColorB": 0.0,
+    "MutationAmountSigma": 0.0,
+    "AverageMutationNumber": 1.42017138,
+    "BrainMutationSigma": 0.0608596019,
+    "BrainAverageMutation": 0.4929775,
+    "ViewAngle": 134.7314,
+    "ViewRadius": 174.422928,
+    "ClockSpeed": 1.54019213,
+    "PheroSense": 15.3641043,
+    "Diet": 0.8938314,
+    "HerdSeparationWeight": 0.0484552979,
+    "HerdAlignmentWeight": 0.0,
+    "HerdCohesionWeight": 1.89199817,
+    "HerdVelocityWeight": 0.2737701,
+    "HerdSeparationDistance": 15.7900009,
+    "GrowthScale": 1.30132008,
+    "GrowthMaturityFactor": 2.328078,
+    "GrowthMaturityExponent": 9.743625,
+    "EyeOffset": 0.5,
+    "StomachWAG": 5.0,
+    "WombWAG": 2.5,
+    "FatWAG": 2.5,
+    "ArmorWAG": 0.0186806936,
+    "ThroatWAG": 2.077835,
+    "MouthMusclesWAG": 7.64291668,
+    "MoveMusclesWAG": 1.13891754,
+    "FatStorageThreshold": 0.5,
+    "FatStorageDeadband": 0.25
+  }
+}

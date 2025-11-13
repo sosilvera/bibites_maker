@@ -1,0 +1,133 @@
+/* Fondo general */
+body {
+  background-color: #f0fdf4; /* verde muy claro */
+  font-family: Arial, sans-serif;
+  color: #374151;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 600px;
+  width: 100%;
+  border: 1px solid #bbf7d0; /* borde verdoso */
+}
+
+h1 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 1.5rem;
+}
+
+/* Secciones */
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.input-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+/* Inputs */
+input[type="text"], textarea, select {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #a7f3d0;
+  border-radius: 0.5rem;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+input[type="text"]:focus, textarea:focus, select:focus {
+  border: 1px solid #34d399;
+  box-shadow: 0 0 0 2px rgba(52, 211, 153, 0.3);
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+/* Botones */
+button {
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.btn-green {
+  background-color: #2e7d32;
+  color: white;
+}
+
+.btn-green:hover {
+  background-color: #256528;
+}
+
+.btn-light-green {
+  background-color: #66bb6a;
+  color: white;
+  width: 100%;
+  margin-top: 0.8rem;
+}
+
+.btn-light-green:hover {
+  background-color: #57a05a;
+}
+
+.btn-accent {
+  background-color: #388e3c;
+  color: white;
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+
+.btn-accent:hover {
+  background-color: #2e7031;
+}
+
+/* Radio buttons */
+.mode {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* Spinner dentro del botón */
+.spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-top: 2px solid white;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

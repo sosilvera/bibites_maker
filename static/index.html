@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Bibites Web</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AIBibi Maker</h1>
+
+    <!-- Lista de archivos -->
+    <div class="section">
+      <label for="file">Selecciona un Bibite</label>
+      <select id="file"></select>
+    </div>
+
+    <!-- Instrucciones -->
+    <div class="section">
+      <label for="instructions">Instrucciones</label>
+      <textarea id="instructions" rows="4" placeholder="Ej: hacerlo más rápido y carnívoro... Recorda también ponerle nombre"></textarea>
+    </div>
+
+    <!-- Botón procesar -->
+    <button id="processBtn" class="btn-accent">Procesar y Descargar Bibite</button>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

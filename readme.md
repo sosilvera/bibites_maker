@@ -1,6 +1,6 @@
 # Bibites_Maker 🧬
 
-**Bibites_Maker** es un proyecto desarrollado en **Python** que utiliza la potencia de **Google Gemini** para generar Bibites a partir de una descripción dada por el usuario.
+**Bibites_Maker** es un proyecto desarrollado en **Python** que utiliza **Google Gemini** para generar Bibites a partir de una descripción dada por el usuario.
 El servidor se ejecuta utilizando **Uvicorn**.
 
 ## 📋 Requisitos Previos
@@ -17,7 +17,7 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina local:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone [https://github.com/tu-usuario/Bibites_Maker.git](https://github.com/tu-usuario/Bibites_Maker.git)
+git clone [https://github.com/sosilvera/Bibites_Maker.git]
 cd Bibites_Maker
 ```
 ### 2. Crear el Entorno Virtual
